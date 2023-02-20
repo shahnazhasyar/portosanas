@@ -1,0 +1,169 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Montserrat, sans-serif;
+}
+
+a{
+	color: #009fff;
+	text-decoration: none;
+	transition: all .2s ease-in;
+}
+
+a:hover{
+	color: #007cff;
+	text-decoration: none;
+}
+
+hr{
+	border: 0;
+	border-top: 1px solid #ddd;
+	margin-bottom: 40px;
+}
+
+/* ---------------------- Navigation ---------------------- */
+
+nav{
+	width: 20%;
+	height: 100%;
+	background: #f1f1f1;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.logo{
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.7em;
+	font-weight: 600;
+	color: #009fff;
+	letter-spacing: 2px;
+}
+.menu{
+	position: absolute;
+	transform: translateY(-50%);
+	top: 50%;
+	left: 50px;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li{
+	padding: 10px 0 ;
+	list-style-type: none;
+}
+
+.menu li a{
+	font-size: 13px;
+	color: #333;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+}
+
+.menu li a:hover{
+	color: #009fff;
+}
+
+/* ---------------------- Main ---------------------- */
+
+main{
+	width: 80%;
+	float: right;
+	padding: 0 35px;
+}
+
+.main-title{
+	font-size: 30px;
+	/* color: #444; */
+	letter-spacing: 1.3px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: capitalize;
+	line-height: 1.6;
+	margin-top: 30px;
+	bottom: 30px;
+}
+
+section{
+	margin: 85px 0;
+}
+
+section h2{
+	font-size: 26px;
+	font-weight: 300;
+	letter-spacing: .5px;
+	text-transform: capitalize;
+}
+
+.introduction{
+	margin-top: 100px;
+}
+
+.template-info{
+	font-weight: 300;
+	line-height: 2;
+	letter-spacing: .5px;
+}
+
+.template-info span{
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+.greeting{
+	margin-top: 50px;
+	width: 80%;
+	line-height: 2;
+	letter-spacing: .6px;
+}
+
+.description p{
+	width: 80%;
+	line-height: 2;
+	letter-spacing: .6px;
+}
+
+.features ul{
+	line-height: 2;
+}
+.html-structure ul{
+	 line-height: 2;
+}
+
+.structure-header{
+	font-weight: 500;
+}
+
+.optional-sections{
+	font-size: 15px;
+	color: #555;
+	font-weight: 300;
+}
+
+.css-files-info h5, .js-files-info h5{
+	letter-spacing: .5px;
+}
+
+.css-files-info p, .js-files-info p{
+	padding-bottom: 10px;
+}
+
+.source-and-credits ul{
+	line-height: 2;
+}
+
+footer{
+	width: 80%;
+	float: right;
+}
+
+footer p{
+	text-align: center;
+	padding-bottom: 30px;
+	letter-spacing: 1px;
+}
